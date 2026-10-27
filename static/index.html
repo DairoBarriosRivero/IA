@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Calificaciones académicas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <header class="cabecera">
+    <div>
+      <h1>Calificaciones académicas</h1>
+      <p id="subtitulo" class="subtitulo">Cargando datos…</p>
+    </div>
+    <div class="grupo" id="grupo" hidden>
+      <span class="grupo-etiqueta">Promedio del grupo</span>
+      <span class="grupo-valor" id="grupo-valor"></span>
+    </div>
+  </header>
+
+  <ul class="leyenda" aria-label="Clasificación de las definitivas">
+    <li><span class="insignia perdio"><span aria-hidden="true">✕</span> Perdió</span> de 0,0 a menos de 3,0</li>
+    <li><span class="insignia gano"><span aria-hidden="true">✓</span> Ganó</span> de 3,0 a menos de 4,0</li>
+    <li><span class="insignia sobresaliente"><span aria-hidden="true">★</span> Sobresaliente</span> de 4,0 a 5,0</li>
+    <li><span class="insignia pendiente"><span aria-hidden="true">○</span> Pendiente</span> falta alguna nota de corte</li>
+  </ul>
+
+  <div id="aviso" class="aviso" role="status" hidden></div>
+
+  <main class="contenido">
+    <nav class="lista-panel" aria-label="Estudiantes">
+      <button id="btn-nuevo" class="boton primario ancho" type="button">Agregar estudiante</button>
+      <ul id="lista" class="lista"></ul>
+    </nav>
+    <section id="detalle" class="detalle" aria-live="polite"></section>
+  </main>
+
+  <dialog id="dialogo-nuevo" aria-labelledby="titulo-nuevo">
+    <form id="form-nuevo" novalidate>
+      <h2 id="titulo-nuevo">Agregar estudiante</h2>
+      <div class="campo">
+        <label for="campo-nombre">Nombre completo</label>
+        <input id="campo-nombre" name="nombre" type="text" maxlength="80" autocomplete="off" required>
+      </div>
+      <div class="campo">
+        <label for="campo-codigo">Código</label>
+        <input id="campo-codigo" name="codigo" type="text" maxlength="20" autocomplete="off">
+        <small>Opcional. Si lo dejas vacío se asigna el siguiente código disponible.</small>
+      </div>
+      <p id="error-dialogo" class="error-dialogo" role="alert"></p>
+      <div class="acciones">
+        <button class="boton primario" type="submit">Crear estudiante</button>
+        <button id="btn-cancelar-nuevo" class="boton" type="button">Cancelar</button>
+      </div>
+    </form>
+  </dialog>
+
+  <script src="/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,125 @@
+{
+  "estudiantes": [
+    {
+      "codigo": "2026001",
+      "nombre": "Valentina Arias Gómez",
+      "asignaturas": [
+        {"nombre": "Programación II", "cortes": [4.5, 4.8, 4.6]},
+        {"nombre": "Matemáticas Discretas", "cortes": [4.2, 4.0, 4.4]},
+        {"nombre": "Bases de Datos", "cortes": [4.7, 4.9, 5.0]},
+        {"nombre": "Arquitectura de Computadores", "cortes": [4.1, 4.3, 4.0]},
+        {"nombre": "Estadística", "cortes": [3.8, 4.0, 4.2]}
+      ]
+    },
+    {
+      "codigo": "2026002",
+      "nombre": "Santiago Herrera Mora",
+      "asignaturas": [
+        {"nombre": "Programación II", "cortes": [3.5, 3.8, 3.6]},
+        {"nombre": "Matemáticas Discretas", "cortes": [2.8, 3.2, 3.0]},
+        {"nombre": "Bases de Datos", "cortes": [4.0, 3.9, 4.2]},
+        {"nombre": "Arquitectura de Computadores", "cortes": [3.4, 3.6, 3.5]},
+        {"nombre": "Estadística", "cortes": [3.0, 3.3, 3.1]}
+      ]
+    },
+    {
+      "codigo": "2026003",
+      "nombre": "Camila Rojas Pérez",
+      "asignaturas": [
+        {"nombre": "Programación II", "cortes": [2.5, 2.8, 3.0]},
+        {"nombre": "Matemáticas Discretas", "cortes": [3.5, 3.2, 3.4]},
+        {"nombre": "Bases de Datos", "cortes": [3.9, 4.1, 4.0]},
+        {"nombre": "Arquitectura de Computadores", "cortes": [2.4, 2.9, 2.7]},
+        {"nombre": "Estadística", "cortes": [3.6, 3.8, 3.5]}
+      ]
+    },
+    {
+      "codigo": "2026004",
+      "nombre": "Mateo Castillo Díaz",
+      "asignaturas": [
+        {"nombre": "Programación II", "cortes": [5.0, 4.8, 4.9]},
+        {"nombre": "Matemáticas Discretas", "cortes": [4.6, 4.4, 4.5]},
+        {"nombre": "Bases de Datos", "cortes": [4.3, 4.5, 4.2]},
+        {"nombre": "Arquitectura de Computadores", "cortes": [4.0, 4.2, 4.4]},
+        {"nombre": "Estadística", "cortes": [4.8, 4.6, 5.0]}
+      ]
+    },
+    {
+      "codigo": "2026005",
+      "nombre": "Isabella Torres Vega",
+      "asignaturas": [
+        {"nombre": "Programación II", "cortes": [2.99, 3.0, 3.0]},
+        {"nombre": "Matemáticas Discretas", "cortes": [3.99, 4.0, 4.0]},
+        {"nombre": "Bases de Datos", "cortes": [3.5, 3.7, 3.6]},
+        {"nombre": "Arquitectura de Computadores", "cortes": [3.2, 3.0, 3.4]},
+        {"nombre": "Estadística", "cortes": [4.0, 4.1, 3.9]}
+      ]
+    },
+    {
+      "codigo": "2026006",
+      "nombre": "Sebastián Núñez Ruiz",
+      "asignaturas": [
+        {"nombre": "Programación II", "cortes": [1.8, 2.4, 2.6]},
+        {"nombre": "Matemáticas Discretas", "cortes": [2.0, 2.5, 2.2]},
+        {"nombre": "Bases de Datos", "cortes": [3.1, 2.8, 3.0]},
+        {"nombre": "Arquitectura de Computadores", "cortes": [2.9, 3.1, 3.3]},
+        {"nombre": "Estadística", "cortes": [2.7, 3.0, 2.8]}
+      ]
+    },
+    {
+      "codigo": "2026007",
+      "nombre": "Daniela Martínez Ospina",
+      "asignaturas": [
+        {"nombre": "Programación II", "cortes": [3.8, 4.0, 4.2]},
+        {"nombre": "Matemáticas Discretas", "cortes": [3.6, 3.4, 3.9]},
+        {"nombre": "Bases de Datos", "cortes": [4.4, 4.6, 4.5]},
+        {"nombre": "Arquitectura de Computadores", "cortes": [3.7, 3.5, 3.8]},
+        {"nombre": "Estadística", "cortes": [4.1, 3.9, 4.0]}
+      ]
+    },
+    {
+      "codigo": "2026008",
+      "nombre": "Andrés Felipe Cabrera Lara",
+      "asignaturas": [
+        {"nombre": "Programación II", "cortes": [3.2, 3.4, 3.0]},
+        {"nombre": "Matemáticas Discretas", "cortes": [2.6, 3.0, 2.9]},
+        {"nombre": "Bases de Datos", "cortes": [3.3, 3.5, 3.8]},
+        {"nombre": "Arquitectura de Computadores", "cortes": [3.0, 3.1, 3.2]},
+        {"nombre": "Estadística", "cortes": [2.8, 3.1, 3.4]}
+      ]
+    },
+    {
+      "codigo": "2026009",
+      "nombre": "Laura Sofía Mendoza Vargas",
+      "asignaturas": [
+        {"nombre": "Programación II", "cortes": [4.2, 4.4, 4.0]},
+        {"nombre": "Matemáticas Discretas", "cortes": [4.5, 4.7, 4.8]},
+        {"nombre": "Bases de Datos", "cortes": [4.9, 5.0, 4.8]},
+        {"nombre": "Arquitectura de Computadores", "cortes": [4.4, 4.6, 4.5]},
+        {"nombre": "Estadística", "cortes": [4.3, 4.5, 4.6]}
+      ]
+    },
+    {
+      "codigo": "2026010",
+      "nombre": "Juan David Ríos Salcedo",
+      "asignaturas": [
+        {"nombre": "Programación II", "cortes": [3.0, 3.0, 3.0]},
+        {"nombre": "Matemáticas Discretas", "cortes": [3.4, 3.6, 3.2]},
+        {"nombre": "Bases de Datos", "cortes": [2.5, 3.1, 3.0]},
+        {"nombre": "Arquitectura de Computadores", "cortes": [3.8, 3.6, 3.9]},
+        {"nombre": "Estadística", "cortes": [3.5, 3.3, 3.7]}
+      ]
+    },
+    {
+      "codigo": "2026011",
+      "nombre": "Federico Perez Roman",
+      "asignaturas": [
+        {"nombre": "Programación II", "cortes": [2, 5, 3]},
+        {"nombre": "Matemáticas Discretas", "cortes": [4, 5, 2]},
+        {"nombre": "Bases de Datos", "cortes": [3, 5, 4]},
+        {"nombre": "Arquitectura de Computadores", "cortes": [2, 3, 5]},
+        {"nombre": "Estadística", "cortes": [4, 3, 5]}
+      ]
+    }
+  ]
+}
